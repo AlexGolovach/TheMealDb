@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.renovavision.themealdb.home.HomeFragment"
+        android:label="Home">
+
+        <action
+            android:id="@+id/navigate_to_meals_list"
+            app:destination="@id/nav_meals_list"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_areas"
+        android:name="com.renovavision.areas.AreasFragment"
+        android:label="Areas">
+
+        <action
+            android:id="@+id/navigate_to_meals_list"
+            app:destination="@id/nav_meals_list"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ingredients"
+        android:name="com.renovavision.ingredients.IngredientsFragment"
+        android:label="Ingredients">
+
+        <action
+            android:id="@+id/navigate_to_meals_list"
+            app:destination="@id/nav_meals_list"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.renovavision.categories.CategoriesFragment"
+        android:label="Categories">
+
+        <action
+            android:id="@+id/navigate_to_meals_list"
+            app:destination="@id/nav_meals_list"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_meals_list"
+        android:name="com.renovavision.themealdb.meals.list.MealsListFragment"
+        android:label="Cocktails">
+
+        <argument
+            android:name="ingredient"
+            app:argType="java.io.Serializable"
+            app:nullable="true" />
+
+        <argument
+            android:name="category"
+            app:argType="java.io.Serializable"
+            app:nullable="true" />
+
+        <argument
+            android:name="area"
+            app:argType="java.io.Serializable"
+            app:nullable="true" />
+
+        <action
+            android:id="@+id/navigate_to_meal_details"
+            app:destination="@id/nav_meal_details"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_meal_details"
+        android:name="com.renovavision.themealdb.meals.details.MealDetailsFragment"
+        android:label="Cocktail details">
+
+        <argument
+            android:name="meal"
+            app:argType="java.io.Serializable"
+            app:nullable="true" />
+    </fragment>
+</navigation>

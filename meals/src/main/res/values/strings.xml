@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="can_not_load_meals">Cannot load meals. Try again.</string>
+    <string name="meals">Meals</string>
+    <string name="can_not_load_meal_details">Cannot load meal details. Try again.</string>
+    <string name="meal_details">Meal details</string>
+</resources>

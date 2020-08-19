@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheMealDb</string>
+
+    <string name="home">Find your meal</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="categories">Categories</string>
+    <string name="areas">Areas</string>
+</resources>
