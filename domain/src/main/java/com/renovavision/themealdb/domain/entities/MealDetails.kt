@@ -85,11 +85,13 @@ data class MealDetails(
     }
 
     private fun makeIngredient(ingredient: String?, measure: String?) =
-        if (measure.isNullOrEmpty() && ingredient.isNullOrEmpty()) {
+        if (!measure.isMeetCondition() && !ingredient.isMeetCondition()) {
             null
-        } else if (measure.isNullOrEmpty() && !ingredient.isNullOrEmpty()) {
+        } else if (!measure.isMeetCondition() && ingredient.isMeetCondition()) {
             ingredient
         } else {
             "$ingredient - $measure"
         }
+
+    private fun String?.isMeetCondition() = this != null && this != "" && this != " "
 }

@@ -34,6 +34,7 @@ class MealDetailsView @JvmOverloads constructor(
     var info: MealDetails
         get() = throw UnsupportedOperationException()
         set(value) {
+            binding.mealText.text = context.getString(R.string.meal, value.strMeal)
             binding.categoryText.text = context.getString(R.string.category, value.strCategory)
             binding.areaText.text = context.getString(R.string.area, value.strArea)
             binding.ingredientsText.text = value.getIngredients()
