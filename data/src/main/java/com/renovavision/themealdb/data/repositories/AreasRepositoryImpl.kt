@@ -1,7 +1,7 @@
 package com.renovavision.themealdb.data.repositories
 
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
-import com.renovavision.meal.domain.repositories.AreasRepository
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.repositories.AreasRepository
 import com.renovavision.themealdb.data.database.dao.AreasDao
 import com.renovavision.themealdb.data.mapper.areaMapper
 import com.renovavision.themealdb.data.network.Api

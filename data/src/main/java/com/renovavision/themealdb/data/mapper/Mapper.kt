@@ -1,7 +1,7 @@
 package com.renovavision.themealdb.data.mapper
 
-import com.renovavision.meal.domain.entities.*
 import com.renovavision.themealdb.data.entities.*
+import com.renovavision.themealdb.domain.entities.*
 
 typealias FunctionMapper<F, T> = ((from: F) -> T)
 

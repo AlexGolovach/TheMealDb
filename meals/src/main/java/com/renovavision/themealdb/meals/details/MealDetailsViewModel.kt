@@ -1,10 +1,10 @@
 package com.renovavision.themealdb.meals.details
 
 import androidx.lifecycle.viewModelScope
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
-import com.renovavision.meal.domain.entities.Meal
-import com.renovavision.meal.domain.entities.MealDetails
-import com.renovavision.meal.domain.usecases.GetMealDetails
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.entities.Meal
+import com.renovavision.themealdb.domain.entities.MealDetails
+import com.renovavision.themealdb.domain.usecases.GetMealDetails
 import com.renovavision.themealdb.ui.uni.Action
 import com.renovavision.themealdb.ui.uni.AsyncAction
 import com.renovavision.themealdb.ui.uni.UniViewModel

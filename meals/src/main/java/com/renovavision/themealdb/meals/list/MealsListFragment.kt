@@ -8,9 +8,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.renovavision.meal.domain.entities.Area
-import com.renovavision.meal.domain.entities.Category
-import com.renovavision.meal.domain.entities.Ingredient
+import com.renovavision.themealdb.domain.entities.Area
+import com.renovavision.themealdb.domain.entities.Category
+import com.renovavision.themealdb.domain.entities.Ingredient
 import com.renovavision.themealdb.meals.R
 import com.renovavision.themealdb.meals.databinding.FragmentMealsListBinding
 import com.renovavision.themealdb.ui.utils.bindingDelegate

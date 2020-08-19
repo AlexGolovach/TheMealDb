@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/nav_areas"
-        android:name="com.renovavision.areas.AreasFragment"
+        android:name="com.renovavision.themealdb.areas.AreasFragment"
         android:label="Areas">
 
         <action
@@ -34,7 +34,7 @@
 
     <fragment
         android:id="@+id/nav_ingredients"
-        android:name="com.renovavision.ingredients.IngredientsFragment"
+        android:name="com.renovavision.themealdb.ingredients.IngredientsFragment"
         android:label="Ingredients">
 
         <action
@@ -48,7 +48,7 @@
 
     <fragment
         android:id="@+id/nav_categories"
-        android:name="com.renovavision.categories.CategoriesFragment"
+        android:name="com.renovavision.themealdb.categories.CategoriesFragment"
         android:label="Categories">
 
         <action

@@ -5,7 +5,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.ViewCompat
-import com.renovavision.meal.domain.entities.MealDetails
+import com.renovavision.themealdb.domain.entities.MealDetails
 import com.renovavision.themealdb.meals.R
 import com.renovavision.themealdb.meals.databinding.MealDetailsViewBinding
 import com.squareup.picasso.Picasso
@@ -35,7 +35,7 @@ class MealDetailsView @JvmOverloads constructor(
         get() = throw UnsupportedOperationException()
         set(value) {
             binding.categoryText.text = context.getString(R.string.category, value.strCategory)
-            binding.areaText.text = context.getString(R.string.alcoholic, value.strArea)
+            binding.areaText.text = context.getString(R.string.area, value.strArea)
             binding.ingredientsText.text = value.getIngredients()
             binding.instructionText.text =
                 context.getString(R.string.instruction, value.strInstructions)

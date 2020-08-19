@@ -3,8 +3,8 @@ package com.renovavision.themealdb.data.repositories
 import com.renovavision.themealdb.data.network.Api
 import com.renovavision.themealdb.data.database.dao.IngredientsDao
 import com.renovavision.themealdb.data.mapper.ingredientMapper
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
-import com.renovavision.meal.domain.repositories.IngredientsRepository
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.repositories.IngredientsRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map

@@ -1,9 +1,9 @@
 package com.renovavision.themealdb.activity
 
 import androidx.lifecycle.ViewModel
-import com.renovavision.areas.AreasViewModel
-import com.renovavision.categories.CategoriesViewModel
-import com.renovavision.ingredients.IngredientsViewModel
+import com.renovavision.themealdb.areas.AreasViewModel
+import com.renovavision.themealdb.categories.CategoriesViewModel
+import com.renovavision.themealdb.ingredients.IngredientsViewModel
 import com.renovavision.themealdb.inject.ViewModelKey
 import com.renovavision.themealdb.meals.details.MealDetailsViewModel
 import com.renovavision.themealdb.meals.list.MealsListViewModel

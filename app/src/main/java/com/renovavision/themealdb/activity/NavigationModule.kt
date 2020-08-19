@@ -1,8 +1,8 @@
 package com.renovavision.themealdb.activity
 
-import com.renovavision.areas.AreasNavigator
-import com.renovavision.categories.CategoriesNavigator
-import com.renovavision.ingredients.IngredientsNavigator
+import com.renovavision.themealdb.areas.AreasNavigator
+import com.renovavision.themealdb.categories.CategoriesNavigator
+import com.renovavision.themealdb.ingredients.IngredientsNavigator
 import com.renovavision.themealdb.meals.MealsNavigator
 import com.renovavision.themealdb.ui.navigation.Navigator
 import dagger.Binds

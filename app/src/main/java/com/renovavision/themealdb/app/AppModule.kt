@@ -1,6 +1,6 @@
 package com.renovavision.themealdb.app
 
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
 import dagger.Binds
 import dagger.Module
 

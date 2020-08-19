@@ -3,9 +3,9 @@ package com.renovavision.themealdb.home
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.renovavision.areas.AreasFragment
-import com.renovavision.categories.CategoriesFragment
-import com.renovavision.ingredients.IngredientsFragment
+import com.renovavision.themealdb.areas.AreasFragment
+import com.renovavision.themealdb.categories.CategoriesFragment
+import com.renovavision.themealdb.ingredients.IngredientsFragment
 import com.renovavision.themealdb.R
 import com.renovavision.themealdb.databinding.FragmentHomeBinding
 import com.renovavision.themealdb.ui.utils.TabAdapter

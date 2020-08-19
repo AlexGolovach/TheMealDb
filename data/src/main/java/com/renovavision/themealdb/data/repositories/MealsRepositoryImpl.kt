@@ -4,8 +4,8 @@ import com.renovavision.themealdb.data.network.Api
 import com.renovavision.themealdb.data.database.dao.MealsDao
 import com.renovavision.themealdb.data.mapper.mealDetailsMapper
 import com.renovavision.themealdb.data.mapper.mealMapper
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
-import com.renovavision.meal.domain.repositories.MealsRepository
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.repositories.MealsRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map

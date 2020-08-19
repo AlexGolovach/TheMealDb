@@ -2,7 +2,7 @@ package com.renovavision.themealdb.meals.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.renovavision.meal.domain.entities.Meal
+import com.renovavision.themealdb.domain.entities.Meal
 import com.renovavision.themealdb.meals.databinding.ItemViewMealBinding
 import com.renovavision.themealdb.ui.uni.Dispatch
 import com.renovavision.themealdb.ui.utils.BaseAdapter

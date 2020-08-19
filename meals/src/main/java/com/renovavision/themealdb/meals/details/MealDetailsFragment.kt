@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.transition.TransitionInflater
-import com.renovavision.meal.domain.entities.Meal
+import com.renovavision.themealdb.domain.entities.Meal
 import com.renovavision.themealdb.meals.R
 import com.renovavision.themealdb.meals.databinding.FragmentMealDetailsBinding
 import com.renovavision.themealdb.ui.utils.bindingDelegate

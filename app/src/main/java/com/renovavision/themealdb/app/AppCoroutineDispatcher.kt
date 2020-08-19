@@ -1,6 +1,6 @@
 package com.renovavision.themealdb.app
 
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject
 import javax.inject.Singleton

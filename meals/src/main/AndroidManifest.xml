@@ -1,5 +1,2 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.renovavision.themealdb.meals">
-
-    /
-</manifest>
+    package="com.renovavision.themealdb.meals"/>

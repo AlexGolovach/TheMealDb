@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.ViewCompat
-import com.renovavision.meal.domain.entities.Meal
+import com.renovavision.themealdb.domain.entities.Meal
 import com.renovavision.themealdb.meals.R
 import com.renovavision.themealdb.meals.databinding.MealViewBinding
 import com.squareup.picasso.Picasso

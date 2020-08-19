@@ -1,9 +1,9 @@
 package com.renovavision.themealdb.activity
 
 import androidx.fragment.app.Fragment
-import com.renovavision.areas.AreasFragment
-import com.renovavision.categories.CategoriesFragment
-import com.renovavision.ingredients.IngredientsFragment
+import com.renovavision.themealdb.areas.AreasFragment
+import com.renovavision.themealdb.categories.CategoriesFragment
+import com.renovavision.themealdb.ingredients.IngredientsFragment
 import com.renovavision.themealdb.home.HomeFragment
 import com.renovavision.themealdb.inject.FragmentKey
 import com.renovavision.themealdb.meals.details.MealDetailsFragment

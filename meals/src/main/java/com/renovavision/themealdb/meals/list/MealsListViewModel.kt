@@ -2,14 +2,14 @@ package com.renovavision.themealdb.meals.list
 
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.lifecycle.viewModelScope
-import com.renovavision.meal.domain.CoroutineDispatcherProvider
-import com.renovavision.meal.domain.entities.Area
-import com.renovavision.meal.domain.entities.Category
-import com.renovavision.meal.domain.entities.Ingredient
-import com.renovavision.meal.domain.entities.Meal
-import com.renovavision.meal.domain.usecases.GetMealsListByArea
-import com.renovavision.meal.domain.usecases.GetMealsListByCategory
-import com.renovavision.meal.domain.usecases.GetMealsListByIngredient
+import com.renovavision.themealdb.domain.CoroutineDispatcherProvider
+import com.renovavision.themealdb.domain.entities.Area
+import com.renovavision.themealdb.domain.entities.Category
+import com.renovavision.themealdb.domain.entities.Ingredient
+import com.renovavision.themealdb.domain.entities.Meal
+import com.renovavision.themealdb.domain.usecases.GetMealsListByArea
+import com.renovavision.themealdb.domain.usecases.GetMealsListByCategory
+import com.renovavision.themealdb.domain.usecases.GetMealsListByIngredient
 import com.renovavision.themealdb.meals.MealsNavigator
 import com.renovavision.themealdb.ui.uni.Action
 import com.renovavision.themealdb.ui.uni.AsyncAction
