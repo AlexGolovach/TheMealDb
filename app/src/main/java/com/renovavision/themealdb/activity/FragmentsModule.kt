@@ -5,6 +5,7 @@ import com.renovavision.themealdb.areas.AreasFragment
 import com.renovavision.themealdb.categories.CategoriesFragment
 import com.renovavision.themealdb.ingredients.IngredientsFragment
 import com.renovavision.themealdb.home.HomeFragment
+import com.renovavision.themealdb.home.OnBoardingFragment
 import com.renovavision.themealdb.inject.FragmentKey
 import com.renovavision.themealdb.meals.details.MealDetailsFragment
 import com.renovavision.themealdb.meals.list.MealsListFragment
@@ -14,6 +15,11 @@ import dagger.multibindings.IntoMap
 
 @Module
 interface FragmentsModule {
+
+    @Binds
+    @IntoMap
+    @FragmentKey(OnBoardingFragment::class)
+    fun onBoardingFragment(onBoardingFragment: OnBoardingFragment): Fragment
 
     @Binds
     @IntoMap

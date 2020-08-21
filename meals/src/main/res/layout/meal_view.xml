@@ -20,7 +20,6 @@
         android:layout_margin="5dp"
         android:gravity="center_horizontal"
         android:maxLines="3"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@id/mealPoster"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/mealPoster"

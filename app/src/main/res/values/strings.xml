@@ -5,4 +5,9 @@
     <string name="ingredients">Ingredients</string>
     <string name="categories">Categories</string>
     <string name="areas">Areas</string>
+
+    <string name="first_onboarding_description">In this application you can find dishes from different cuisines of the world.\n</string>
+    <string name="second_onboarding_description">And also you can find dishes by a certain category.\n</string>
+    <string name="third_onboarding_description">You can find dishes by certain ingredients</string>
+    <string name="get_started">Get started</string>
 </resources>

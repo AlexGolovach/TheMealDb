@@ -1,5 +1,6 @@
 package com.renovavision.themealdb.home
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -22,6 +23,8 @@ class HomeFragment @Inject constructor(
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        showOnBoarding()
+
         val tabAdapter = TabAdapter(childFragmentManager)
 
         tabAdapter.addFragment(AreasFragment(viewModelFactory), getString(R.string.areas))
@@ -42,5 +45,17 @@ class HomeFragment @Inject constructor(
         onViewLifecycle({ binding.tabLayout }, {
             setupWithViewPager(binding.viewPager)
         })
+    }
+
+    private fun showOnBoarding() {
+        val pref = context?.getSharedPreferences(getString(R.string.app_name), Context.MODE_PRIVATE)
+
+        if (pref?.getBoolean("IS_FIRST_LAUNCH", true) != false) {
+            OnBoardingFragment().show(childFragmentManager, "onboarding")
+
+            pref?.edit()
+                ?.putBoolean("IS_FIRST_LAUNCH", false)
+                ?.apply()
+        }
     }
 }

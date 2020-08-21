@@ -5,4 +5,7 @@
     <color name="red">#f73f59</color>
     <color name="grey_4a">#4a4a4a</color>
     <color name="black">#000000</color>
+    <color name="light_yellow">#D8CB56</color>
+    <color name="yellow">#FFC107</color>
+    <color name="yellowish">#F8C171</color>
 </resources>
