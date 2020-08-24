@@ -1,4 +1,4 @@
 TheMealDb
 
-https://github.com/AlexGolovach/TheMealDb/blob/master/screenshots/App-image.gif
+![grab-landing-page](https://github.com/AlexGolovach/TheMealDb/blob/master/screenshots/App-image.gif)
 
